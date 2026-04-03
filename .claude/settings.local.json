@@ -1,7 +1,25 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npm install:*)"
+      "Bash(npm install:*)",
+      "Bash(npx expo:*)",
+      "Bash(npx kill-port:*)",
+      "Bash(taskkill //F //IM node.exe)",
+      "Bash(node -e \"try { require\\('sharp'\\); console.log\\('sharp'\\); } catch\\(e\\) {} try { require\\('canvas'\\); console.log\\('canvas'\\); } catch\\(e\\) {} try { require\\('jimp'\\); console.log\\('jimp'\\); } catch\\(e\\) {}\")",
+      "Bash(node generate-icon.js)",
+      "Bash(npm uninstall:*)",
+      "Bash(xxd \"C:/Users/WStra/AndroidStudioProjects/TriangleCalc/android/gradle.properties\")",
+      "Bash(node:*)",
+      "Bash(rm:*)",
+      "Bash(./gradlew assembleRelease --no-daemon)",
+      "Bash(export JAVA_HOME=\"C:/Program Files/Android/Android Studio/jbr\")",
+      "Bash(./gradlew --stop)",
+      "Bash(taskkill //F //IM java.exe)",
+      "Bash(export GRADLE_USER_HOME=\"C:/G\")",
+      "Bash(tasklist)",
+      "Bash(./gradlew assembleRelease --no-daemon --console=plain --info)",
+      "Bash(./gradlew assembleRelease --no-daemon --console=plain)",
+      "Bash(cmd.exe //c \"set JAVA_HOME=C:\\\\Program Files\\\\Android\\\\Android Studio\\\\jbr&& set GRADLE_USER_HOME=C:\\\\G&& gradlew.bat assembleRelease --console=plain --stacktrace\")"
     ]
   }
 }
